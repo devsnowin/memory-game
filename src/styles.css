@@ -1,0 +1,41 @@
+@import '@fontsource/luckiest-guy';
+@import '@fontsource-variable/grandstander';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary: 173, 81%, 45%;
+	--bg: 0, 0%, 7%;
+	--text: 0, 0%, 100%;
+	--muted: 0, 0%, 24%;
+	--accent: 0, 0%, 36%;
+
+	--radius: 10px;
+}
+
+html {
+	font-family: 'Grandstander Variable', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: hsl(var(--bg));
+	color: hsl(var(--text));
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+h1 {
+	font-family: 'Luckiest Guy', sans-serif;
+	line-height: 1.2;
+	font-size: 4em;
+}
