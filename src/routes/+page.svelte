@@ -42,11 +42,11 @@
 					<p>You have {state} the game</p>
 				{/if}
 
-				{#if state === 'paused'}
-					<button on:click={game.resume}>Resume</button>
-					<button on:click={() => (state = 'waiting')}>Quit</button>
-				{:else}
-					<div class="buttons">
+				<div class="buttons">
+					{#if state === 'paused'}
+						<button on:click={game.resume}>Resume</button>
+						<button on:click={() => (state = 'waiting')}>Quit</button>
+					{:else}
 						{#each levels as level}
 							<button
 								on:click={() => {
@@ -55,8 +55,8 @@
 								}}>{level.label}</button
 							>
 						{/each}
-					</div>
-				{/if}
+					{/if}
+				</div>
 			</div>
 		</Model>
 	{/if}

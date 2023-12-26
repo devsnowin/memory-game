@@ -13,8 +13,14 @@
 	--text: 0, 0%, 100%;
 	--muted: 0, 0%, 24%;
 	--accent: 0, 0%, 36%;
-
 	--radius: 10px;
+
+	@media (prefers-color-scheme: light) {
+		--text: 0, 0%, 7%;
+		--bg: 0, 0%, 100%;
+		--muted: 0, 0%, 75%;
+		--accent: 0, 0%, 91%;
+	}
 }
 
 html {

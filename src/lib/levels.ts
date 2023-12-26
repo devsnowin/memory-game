@@ -22,7 +22,7 @@ export const levels: Level[] = [
 	},
 	{
 		label: LEVELS.HARD.LABEL,
-		size: 6,
+		size: 8,
 		duration: 300 * 1000,
 		emojis: LEVELS.HARD.EMOJIS
 	}

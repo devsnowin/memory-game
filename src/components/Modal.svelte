@@ -16,7 +16,7 @@
 		display: block;
 		width: 100%;
 		height: 100vh;
-		background-color: hsla(1, 1%, 1%, 0.5);
+		background-color: hsla(var(--bg), 0.5);
 		border-radius: 10px;
 		backdrop-filter: blur(10px);
 	}

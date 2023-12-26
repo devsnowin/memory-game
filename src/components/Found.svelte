@@ -32,7 +32,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background-color: #5c5c5c;
+		background-color: hsl(var(--muted));
 		border-radius: 50%;
 	}
 

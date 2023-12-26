@@ -119,7 +119,7 @@
 	}
 
 	.box-container {
-		width: 80em;
-		height: 80em;
+		width: 90em;
+		height: 90em;
 	}
 </style>

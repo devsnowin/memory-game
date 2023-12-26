@@ -50,6 +50,7 @@
 
 <style>
 	.boxes {
+		width: 100%;
 		height: 100%;
 		display: grid;
 		gap: 0.5rem;
